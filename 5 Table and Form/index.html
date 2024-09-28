@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+</head>
+
+<body>
+    <form action="submit.html" method="GET">
+        <table border="1">
+            <thead>
+                <th colspan="7">User Form</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Enter Name</td>
+                    <td><input type="text" name="Name" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td>Enter Password</td>
+                    <td><input type="password" name="password" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td>Enter Address</td>
+                    <td><textarea name="Address" rows ="2" cols="19"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Select Game</td>
+                    <td>
+                        <label for="hockey">Hockey</label>
+                        <input type="checkbox" name="hockey" id="hockey">
+                        <br><label for="Football">Football</label>
+                        <input type="checkbox" name="Football" id="Football">
+                        <br><label for="Cricket">Cricket</label>
+                        <input type="checkbox" name="Cricket" id="Cricket">
+                        <br><label for="Badminton">Badminton</label>
+                        <input type="checkbox" name="Badminton" id="Badminton">
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Gender</td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input type="radio" value="Male" name="gender" id="male">
+                        <label for="Female">Female</label>
+                        <input type="radio" value="Female" name="gender" id="Female">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select your Age</td>
+                    <td>
+                        <select name="age">
+                            <option value="12-18">12-15</option>
+                            <option value="12-18">15-18</option>
+                            <option value="12-18">18-24</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Picture</td>
+                    <td><input type="file" name="pic"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset"></td>
+                    <td><input type="submit"></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </form>
+</body>
+
+</html>
